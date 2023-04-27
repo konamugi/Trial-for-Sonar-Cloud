@@ -38,9 +38,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-function test() {
-    let t = null;
-    t.nullRef();
-}
-
 module.exports = app;
